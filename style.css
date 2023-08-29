@@ -1,0 +1,140 @@
+*{   
+margin: 0px;
+padding: 0px;
+
+}
+.fast{
+position: relative;
+top: 150px;
+left: 150px;
+width: 550px;
+
+}
+
+
+.font{
+position: relative;
+left: 750px;
+top: -40px;
+height: 380px;
+width: 400px;
+background-color: #ffffff;
+border: 2px 4px  5px solid  ;
+box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+text-align: center;
+border-radius:10px;
+
+}
+input{
+height: 50px;
+width:360px ;
+margin-top: 10px;
+margin-bottom: 5px;
+font-size: 18px;
+padding-left:10px ;
+border-radius:5px;
+
+border: 1px solid #c0c3c5;
+}
+.but-1{
+    margin-top: 10px;
+    text-align: center;
+    width: 360px;
+    height: 50px;
+    background-color: #1877f2;
+    border-radius: 5px;
+    color: white;
+    font: bold;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.but-1:hover{
+background-color: #1f6bcf;
+
+}
+.but-2{
+   border: none;
+   color: #1877f2;
+    width: 380px;
+   height: 50px;
+
+   font-size: 15px;
+   background-color: white;
+   text-decoration: none;
+   text-decoration: ;
+}
+
+.but-3{
+    width: 250px;
+    height: 50px;
+margin-top: 40px;
+border: none;
+background-color: #42b72a;
+border-radius: 5px;
+color: white;
+font-size: 20px;
+}
+.but-3:hover{
+background-color: #2b8b17;
+
+}
+.bb{
+text-align: center;
+margin-bottom: 200px;
+margin-top: 100px;
+transform: rotate(0deg);
+}
+.butten{
+     border-color: black;
+display: inline-block;
+background-color: darkred;
+color: rgb(253, 253, 255);
+padding: 15px 40px ;
+ border-radius: 5px;
+ text-decoration: none;
+ font-size: 20px;
+ position: relative;
+ border: 2px solid black;
+ z-index: 1;
+
+}
+.butten::before{
+content: "  ";
+height: 0%;
+width: 100%;
+border-radius: 5px;
+background-color: aqua;
+position: absolute;
+color: black;
+bottom: 0px;
+left: 0px;
+transition: 0.3s;
+z-index: -1;
+transition: 0.2s;
+}
+.butten:hover::before{
+   height: 100%;
+}
+.ddd{
+background-color: coral;
+height: 250px;
+width: 250px;
+position: relative;
+left: 40%;
+margin-bottom: 100px;
+transition: 1s;
+z-index: 1;
+padding-top: 50px;
+text-align: center;
+}
+.ddd:hover{
+    text-align: center;
+    content: " ";
+
+color: white;
+z-index: -1;
+transform: scale(1.2) rotate(360deg);
+
+}
